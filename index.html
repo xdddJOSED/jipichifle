@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jipichifle — Chifles Artesanales de Jipijapa 🍌</title>
+  <meta name="description" content="Jipichifle: chifles crujientes artesanales hechos con plátanos frescos de Jipijapa, Ecuador. Descubre el sabor auténtico del trópico." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">
+        <img src="images/mascot.png" alt="Jipichifle mascota" />
+        Jipichifle
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#features">¿Por qué?</a></li>
+        <li><a href="#factory">Fábrica</a></li>
+        <li><a href="#products">Sabores</a></li>
+        <li><a href="#products" class="nav-cta">🛒 Comprar</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <!-- Floating decorative chips -->
+    <div class="floating-chip"></div>
+    <div class="floating-chip"></div>
+    <div class="floating-chip"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse"></span>
+          Hecho en Jipijapa, Ecuador 🇪🇨
+        </div>
+
+        <h1 class="hero-title">
+          El crujido que<br/>
+          <span class="highlight">conquista al mundo</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Chifles artesanales elaborados con plátanos frescos del trópico ecuatoriano.
+          Cada bocado es una explosión de sabor y tradición.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn-primary" id="btnComprar">
+            🛒 Descubre el crujido
+          </button>
+          <button class="btn-secondary" id="btnFactory">
+            🏭 Ver la fábrica
+          </button>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Natural</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">+15</div>
+            <div class="stat-label">Años de tradición</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Clientes felices</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/hero-chips.png" alt="Chifles Jipichifle crujientes" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title reveal">¿Por qué Jipichifle?</h2>
+      <p class="section-subtitle reveal">
+        No es solo un chifle. Es tradición, calidad y el sabor auténtico del Ecuador en cada mordisco.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon gold">🍌</div>
+          <h3>Plátanos Frescos</h3>
+          <p>Seleccionamos los mejores plátanos verdes de las fincas de Jipijapa, garantizando frescura y calidad en cada chifle.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon blue">🔥</div>
+          <h3>Fritura Artesanal</h3>
+          <p>Proceso de fritura controlado con aceite de primera calidad. El resultado: chifles dorados, crujientes y llenos de sabor.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon green">🌿</div>
+          <h3>Sin Conservantes</h3>
+          <p>Ingredientes 100% naturales, sin aditivos artificiales. Solo plátano, aceite y un toque de sal marina del Pacífico.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FACTORY ===================== -->
+  <section class="factory" id="factory">
+    <div class="container">
+      <h2 class="section-title reveal">Desde la Fábrica 🏭</h2>
+      <p class="section-subtitle reveal">
+        Conoce el proceso artesanal detrás de cada chifle Jipichifle, desde la plantación hasta tu mesa.
+      </p>
+
+      <div class="factory-grid">
+        <!-- Card 1: Large – Plantation -->
+        <div class="factory-card large reveal">
+          <img src="images/factory-plantation.png" alt="Plantaciones de plátano en Jipijapa" />
+          <div class="card-overlay">
+            <span class="card-step">Paso 01</span>
+            <span class="card-label">La Plantación</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Small – Cutting -->
+        <div class="factory-card small reveal">
+          <img src="images/factory-cutting.png" alt="Corte artesanal de plátano" />
+          <div class="card-overlay">
+            <span class="card-step">Paso 02</span>
+            <span class="card-label">El Corte</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Small – Frying -->
+        <div class="factory-card small reveal">
+          <img src="images/factory-frying.png" alt="Fritura artesanal de chifles" />
+          <div class="card-overlay">
+            <span class="card-step">Paso 03</span>
+            <span class="card-label">La Fritura</span>
+          </div>
+        </div>
+
+        <!-- Card 4: Wide – Packaging -->
+        <div class="factory-card wide reveal">
+          <img src="images/factory-packaging.png" alt="Empaquetado de chifles" />
+          <div class="card-overlay">
+            <span class="card-step">Paso 04</span>
+            <span class="card-label">El Empaquetado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUCTS / CTA ===================== -->
+  <section class="products-cta" id="products">
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2 class="section-title">Nuestros Sabores 🌶️</h2>
+        <p>Explora nuestra línea de chifles artesanales. ¿Cuál será tu favorito?</p>
+
+        <div class="cta-chips">
+          <div class="chip-flavor">
+            <div class="flavor-emoji">🍌</div>
+            <div class="flavor-name">Original</div>
+            <div class="flavor-tag">Clásico & crujiente</div>
+          </div>
+          <div class="chip-flavor">
+            <div class="flavor-emoji">🌶️</div>
+            <div class="flavor-name">Picante</div>
+            <div class="flavor-tag">Con ají manabita</div>
+          </div>
+          <div class="chip-flavor">
+            <div class="flavor-emoji">🧄</div>
+            <div class="flavor-name">Ajo & Limón</div>
+            <div class="flavor-tag">Fresco & aromático</div>
+          </div>
+          <div class="chip-flavor">
+            <div class="flavor-emoji">🍯</div>
+            <div class="flavor-name">Dulce</div>
+            <div class="flavor-tag">Con panela de caña</div>
+          </div>
+        </div>
+
+        <button class="btn-primary" id="btnShop">
+          🛒 Comprar ahora
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CHATBOT ===================== -->
+  <button class="chatbot-toggle" id="chatbotToggle" aria-label="Abrir chat">
+    <img src="images/mascot.png" alt="Chat mascota" />
+    <span class="notif-dot"></span>
+  </button>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chat-header">
+      <img src="images/mascot.png" alt="Chifle Bot" class="chat-avatar" />
+      <div class="chat-header-info">
+        <h4>ChifleBot 🤖</h4>
+        <span><span class="online-dot"></span> En línea</span>
+      </div>
+      <button class="chat-close" id="chatClose" aria-label="Cerrar chat">✕</button>
+    </div>
+
+    <div class="chat-body" id="chatBody">
+      <!-- Messages injected by JS -->
+    </div>
+
+    <div class="chat-footer">
+      <input type="text" id="chatInput" placeholder="Escribe tu mensaje..." autocomplete="off" />
+      <button id="chatSend" aria-label="Enviar mensaje">➤</button>
+    </div>
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <img src="images/mascot.png" alt="Jipichifle" />
+            Jipichifle
+          </a>
+          <p>
+            Chifles artesanales elaborados con pasión y tradición en Jipijapa, Manabí.
+            Llevamos el sabor del Ecuador al mundo desde hace más de 15 años.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <a href="#hero">Inicio</a>
+          <a href="#features">¿Por qué?</a>
+          <a href="#factory">Fábrica</a>
+          <a href="#products">Sabores</a>
+        </div>
+
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+            <a href="#" class="social-icon" aria-label="Instagram">📸</a>
+            <a href="#" class="social-icon" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-icon" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Jipichifle. Todos los derechos reservados.</p>
+        <div class="footer-location">
+          📍 Orgullosamente hechos en Jipijapa, Ecuador
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
