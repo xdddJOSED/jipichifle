@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jipichifle — Chifles Artesanales de Jipijapa 🍌</title>
-  <meta name="description" content="Jipichifle: chifles crujientes artesanales hechos con plátanos frescos de Jipijapa, Ecuador. Descubre el sabor auténtico del trópico." />
+  <title>Jipi Chifles — Platanitos Crujientes de Jipijapa 🍌</title>
+  <meta name="description" content="Jipi Chifles: platanitos crujientes artesanales, chips de yuca y camote hechos con ingredientes 100% naturales en Jipijapa, Ecuador." />
+  <meta property="og:title" content="Jipi Chifles — Platanitos Crujientes" />
+  <meta property="og:description" content="Empresa 100% ecuatoriana. Platanitos crujientes, chips de yuca y camote. Orgullosamente hechos en Jipijapa." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,17 +15,20 @@
   <nav class="navbar" id="navbar">
     <div class="container">
       <a href="#hero" class="nav-logo">
-        <img src="images/mascot.png" alt="Jipichifle mascota" />
-        Jipichifle
+        <img src="images/logo.png" alt="Jipi Chifles logo" />
       </a>
 
       <ul class="nav-links" id="navLinks">
         <li><a href="#hero">Inicio</a></li>
-        <li><a href="#features">¿Por qué?</a></li>
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#products">Productos</a></li>
         <li><a href="#factory">Fábrica</a></li>
-        <li><a href="#products">Sabores</a></li>
-        <li><a href="#products" class="nav-cta">🛒 Comprar</a></li>
+        <li><a href="#contact" class="nav-cta">🛒 Pedir ahora</a></li>
       </ul>
+
+      <div class="nav-contact">
+        <span>📞</span> 0996643455
+      </div>
 
       <div class="hamburger" id="hamburger">
         <span></span><span></span><span></span>
@@ -33,85 +38,219 @@
 
   <!-- ===================== HERO ===================== -->
   <section class="hero" id="hero">
-    <!-- Floating decorative chips -->
-    <div class="floating-chip"></div>
-    <div class="floating-chip"></div>
-    <div class="floating-chip"></div>
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-blob blob-3"></div>
 
     <div class="container">
       <div class="hero-content">
         <div class="hero-badge">
-          <span class="pulse"></span>
-          Hecho en Jipijapa, Ecuador 🇪🇨
+          <span class="flag">🇪🇨</span>
+          Empresa 100% Ecuatoriana
         </div>
 
         <h1 class="hero-title">
-          El crujido que<br/>
-          <span class="highlight">conquista al mundo</span>
+          El sabor <span class="text-red">crujiente</span><br/>
+          que conquista<br/>
+          <span class="text-blue">tu paladar</span>
         </h1>
 
-        <p class="hero-subtitle">
-          Chifles artesanales elaborados con plátanos frescos del trópico ecuatoriano.
-          Cada bocado es una explosión de sabor y tradición.
+        <p class="hero-text">
+          Platanitos elaborados con plátanos cuidadosamente seleccionados, 
+          procesados con altos estándares de calidad. Frescura, crocancia y 
+          un sabor inigualable.
         </p>
 
         <div class="hero-buttons">
-          <button class="btn-primary" id="btnComprar">
-            🛒 Descubre el crujido
+          <button class="btn-red" id="btnComprar">
+            🛒 Descubre nuestros productos
           </button>
-          <button class="btn-secondary" id="btnFactory">
-            🏭 Ver la fábrica
+          <button class="btn-outline" id="btnFactory">
+            🏭 Conoce la fábrica
           </button>
         </div>
 
         <div class="hero-stats">
-          <div class="stat-item">
-            <div class="stat-number">100%</div>
-            <div class="stat-label">Natural</div>
+          <div class="stat-pill">
+            <span class="stat-icon">🌿</span>
+            <div class="stat-info">
+              <strong>100%</strong>
+              <span>Natural</span>
+            </div>
           </div>
-          <div class="stat-item">
-            <div class="stat-number">+15</div>
-            <div class="stat-label">Años de tradición</div>
+          <div class="stat-pill">
+            <span class="stat-icon">🏭</span>
+            <div class="stat-info">
+              <strong>Jipijapa</strong>
+              <span>Ecuador</span>
+            </div>
           </div>
-          <div class="stat-item">
-            <div class="stat-number">50K+</div>
-            <div class="stat-label">Clientes felices</div>
+          <div class="stat-pill">
+            <span class="stat-icon">⭐</span>
+            <div class="stat-info">
+              <strong>Premium</strong>
+              <span>Calidad</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="hero-image">
-        <img src="images/hero-chips.png" alt="Chifles Jipichifle crujientes" />
+      <div class="hero-visual">
+        <div class="hero-circle"></div>
+        <div class="hero-visual-img">
+          <img src="images/hero-chips.png" alt="Platanitos crujientes Jipi Chifles" />
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== FEATURES ===================== -->
-  <section class="features" id="features">
+  <!-- ===================== MARQUEE ===================== -->
+  <div class="marquee-band">
+    <div class="marquee-track">
+      <span><span class="dot"></span> PLATANITOS DE VERDE</span>
+      <span><span class="dot"></span> PLATANITOS DE MADURO</span>
+      <span><span class="dot"></span> CHIPS DE YUCA</span>
+      <span><span class="dot"></span> CHIPS DE CAMOTE</span>
+      <span><span class="dot"></span> CON SALPRIETA</span>
+      <span><span class="dot"></span> TOQUE PICANTE</span>
+      <span><span class="dot"></span> PRESENTACIÓN FAMILIAR</span>
+      <span><span class="dot"></span> IDEAL PARA LONCHERAS</span>
+      <!-- Duplicated for seamless loop -->
+      <span><span class="dot"></span> PLATANITOS DE VERDE</span>
+      <span><span class="dot"></span> PLATANITOS DE MADURO</span>
+      <span><span class="dot"></span> CHIPS DE YUCA</span>
+      <span><span class="dot"></span> CHIPS DE CAMOTE</span>
+      <span><span class="dot"></span> CON SALPRIETA</span>
+      <span><span class="dot"></span> TOQUE PICANTE</span>
+      <span><span class="dot"></span> PRESENTACIÓN FAMILIAR</span>
+      <span><span class="dot"></span> IDEAL PARA LONCHERAS</span>
+    </div>
+  </div>
+
+  <!-- ===================== ABOUT / SOMOS ===================== -->
+  <section class="about" id="about">
     <div class="container">
-      <h2 class="section-title reveal">¿Por qué Jipichifle?</h2>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <img src="images/factory-plantation.png" alt="Plantaciones de plátano en Jipijapa" />
+          <div class="about-image-badge">🇪🇨 Hecho en Ecuador</div>
+        </div>
+
+        <div class="about-content reveal">
+          <span class="section-tag">🏭 Nuestra Historia</span>
+          <h2>Somos <span style="color:var(--red)">Jipi Chifles</span></h2>
+          <p>
+            Empresa 100% ecuatoriana comprometida con llevar a cada hogar el 
+            auténtico sabor del plátano en su mejor versión. Nuestras hojuelas 
+            son elaboradas con plátanos cuidadosamente seleccionados, procesados 
+            con altos estándares de calidad y bajo rigurosos controles que 
+            garantizan frescura, crocancia y un sabor inigualable.
+          </p>
+          <p>
+            En Jipi Chifles combinamos tradición, dedicación y materia prima de 
+            excelencia para ofrecer un producto natural, confiable y perfecto para 
+            disfrutar en cualquier momento del día.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="hi-icon">🍌</span>
+              <span>Plátanos Seleccionados</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">🔥</span>
+              <span>Fritura Artesanal</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">🌿</span>
+              <span>Sin Conservantes</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">✅</span>
+              <span>Control de Calidad</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUCTS ===================== -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-tag">🛒 Catálogo 2026</div>
+      <h2 class="section-title reveal">Nuestros Productos</h2>
       <p class="section-subtitle reveal">
-        No es solo un chifle. Es tradición, calidad y el sabor auténtico del Ecuador en cada mordisco.
+        Platanitos crujientes en todas las presentaciones. Desde snacks para loncheras 
+        hasta bolsas familiares.
       </p>
 
-      <div class="features-grid">
-        <div class="feature-card reveal">
-          <div class="feature-icon gold">🍌</div>
-          <h3>Plátanos Frescos</h3>
-          <p>Seleccionamos los mejores plátanos verdes de las fincas de Jipijapa, garantizando frescura y calidad en cada chifle.</p>
+      <div class="products-scroll" id="productsScroll">
+        <!-- Card 1 -->
+        <div class="product-card reveal">
+          <span class="product-badge">Popular</span>
+          <img src="images/product-verde.png" alt="Platanitos Redondos de Verde" />
+          <h3>Platanitos de Verde</h3>
+          <p class="product-desc">Redondos, crujientes y dorados</p>
+          <span class="product-size">Desde 23g hasta 180g</span>
         </div>
 
-        <div class="feature-card reveal">
-          <div class="feature-icon blue">🔥</div>
-          <h3>Fritura Artesanal</h3>
-          <p>Proceso de fritura controlado con aceite de primera calidad. El resultado: chifles dorados, crujientes y llenos de sabor.</p>
+        <!-- Card 2 -->
+        <div class="product-card reveal">
+          <img src="images/product-maduro.png" alt="Platanitos Redondos de Maduro" />
+          <h3>Platanitos de Maduro</h3>
+          <p class="product-desc">Dulces y crujientes, sabor natural</p>
+          <span class="product-size">50g · 90g · 120g · 200g</span>
         </div>
 
-        <div class="feature-card reveal">
-          <div class="feature-icon green">🌿</div>
-          <h3>Sin Conservantes</h3>
-          <p>Ingredientes 100% naturales, sin aditivos artificiales. Solo plátano, aceite y un toque de sal marina del Pacífico.</p>
+        <!-- Card 3 -->
+        <div class="product-card reveal">
+          <span class="product-badge">Familiar</span>
+          <img src="images/product-largo.png" alt="Platanitos Largos de Verde" />
+          <h3>Platanitos Largos</h3>
+          <p class="product-desc">Corte largo de verde, crujientes</p>
+          <span class="product-size">150g · 220g · 280g</span>
         </div>
+
+        <!-- Card 4 -->
+        <div class="product-card reveal">
+          <span class="product-badge">Nuevo</span>
+          <img src="images/product-picante.png" alt="Platanitos con Toque Picante" />
+          <h3>Toque Picante</h3>
+          <p class="product-desc">Platanitos de verde con ají</p>
+          <span class="product-size">100g</span>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="product-card reveal">
+          <img src="images/product-verde.png" alt="Platanitos con Salprieta" />
+          <h3>Con Salprieta</h3>
+          <p class="product-desc">Salprieta artesanal manabita</p>
+          <span class="product-size">100g</span>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="product-card reveal">
+          <span class="product-badge">Nuevo</span>
+          <img src="images/product-yuca.png" alt="Chips de Yuca" />
+          <h3>Chips de Yuca</h3>
+          <p class="product-desc">Yuca crocante, sabor único</p>
+          <span class="product-size">75g</span>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="product-card reveal">
+          <span class="product-badge">Nuevo</span>
+          <img src="images/product-camote.png" alt="Chips de Camote Dulce" />
+          <h3>Chips de Camote</h3>
+          <p class="product-desc">Camote dulce, crujiente y natural</p>
+          <span class="product-size">75g</span>
+        </div>
+      </div>
+
+      <div class="scroll-controls">
+        <button class="scroll-btn" id="scrollLeft" aria-label="Anterior">◀</button>
+        <button class="scroll-btn" id="scrollRight" aria-label="Siguiente">▶</button>
       </div>
     </div>
   </section>
@@ -119,107 +258,105 @@
   <!-- ===================== FACTORY ===================== -->
   <section class="factory" id="factory">
     <div class="container">
-      <h2 class="section-title reveal">Desde la Fábrica 🏭</h2>
+      <div class="section-tag">🏭 Proceso Artesanal</div>
+      <h2 class="section-title reveal">Desde la Fábrica</h2>
       <p class="section-subtitle reveal">
-        Conoce el proceso artesanal detrás de cada chifle Jipichifle, desde la plantación hasta tu mesa.
+        Conoce cada paso del proceso artesanal detrás de cada platanito Jipi Chifles.
       </p>
 
       <div class="factory-grid">
-        <!-- Card 1: Large – Plantation -->
-        <div class="factory-card large reveal">
-          <img src="images/factory-plantation.png" alt="Plantaciones de plátano en Jipijapa" />
+        <!-- Featured large card -->
+        <div class="factory-card featured reveal">
+          <img src="images/factory-plantation.png" alt="Plantaciones en Jipijapa" />
+          <div class="step-badge">1</div>
           <div class="card-overlay">
-            <span class="card-step">Paso 01</span>
             <span class="card-label">La Plantación</span>
+            <span class="card-desc">Plátanos frescos de las fincas de Jipijapa</span>
           </div>
         </div>
 
-        <!-- Card 2: Small – Cutting -->
-        <div class="factory-card small reveal">
-          <img src="images/factory-cutting.png" alt="Corte artesanal de plátano" />
+        <!-- Card 2 -->
+        <div class="factory-card reveal">
+          <img src="images/factory-cutting.png" alt="Corte del plátano" />
+          <div class="step-badge">2</div>
           <div class="card-overlay">
-            <span class="card-step">Paso 02</span>
             <span class="card-label">El Corte</span>
+            <span class="card-desc">Selección y corte preciso</span>
           </div>
         </div>
 
-        <!-- Card 3: Small – Frying -->
-        <div class="factory-card small reveal">
-          <img src="images/factory-frying.png" alt="Fritura artesanal de chifles" />
+        <!-- Card 3 -->
+        <div class="factory-card reveal">
+          <img src="images/factory-frying.png" alt="Fritura artesanal" />
+          <div class="step-badge">3</div>
           <div class="card-overlay">
-            <span class="card-step">Paso 03</span>
             <span class="card-label">La Fritura</span>
+            <span class="card-desc">Aceite de primera calidad</span>
           </div>
         </div>
 
-        <!-- Card 4: Wide – Packaging -->
-        <div class="factory-card wide reveal">
-          <img src="images/factory-packaging.png" alt="Empaquetado de chifles" />
+        <!-- Card 4 -->
+        <div class="factory-card reveal">
+          <img src="images/factory-packaging.png" alt="Empaquetado" />
+          <div class="step-badge">4</div>
           <div class="card-overlay">
-            <span class="card-step">Paso 04</span>
-            <span class="card-label">El Empaquetado</span>
+            <span class="card-label">Empaquetado</span>
+            <span class="card-desc">Sellado fresco y listo</span>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="factory-card reveal">
+          <img src="images/hero-chips.png" alt="Producto final" />
+          <div class="step-badge">5</div>
+          <div class="card-overlay">
+            <span class="card-label">¡A Disfrutar!</span>
+            <span class="card-desc">Crocancia en tu mesa</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== PRODUCTS / CTA ===================== -->
-  <section class="products-cta" id="products">
-    <div class="container">
-      <div class="cta-content reveal">
-        <h2 class="section-title">Nuestros Sabores 🌶️</h2>
-        <p>Explora nuestra línea de chifles artesanales. ¿Cuál será tu favorito?</p>
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="cta-banner" id="contact">
+    <div class="cta-deco cta-deco-1"></div>
+    <div class="cta-deco cta-deco-2"></div>
+    <div class="cta-deco cta-deco-3"></div>
 
-        <div class="cta-chips">
-          <div class="chip-flavor">
-            <div class="flavor-emoji">🍌</div>
-            <div class="flavor-name">Original</div>
-            <div class="flavor-tag">Clásico & crujiente</div>
-          </div>
-          <div class="chip-flavor">
-            <div class="flavor-emoji">🌶️</div>
-            <div class="flavor-name">Picante</div>
-            <div class="flavor-tag">Con ají manabita</div>
-          </div>
-          <div class="chip-flavor">
-            <div class="flavor-emoji">🧄</div>
-            <div class="flavor-name">Ajo & Limón</div>
-            <div class="flavor-tag">Fresco & aromático</div>
-          </div>
-          <div class="chip-flavor">
-            <div class="flavor-emoji">🍯</div>
-            <div class="flavor-name">Dulce</div>
-            <div class="flavor-tag">Con panela de caña</div>
-          </div>
-        </div>
-
-        <button class="btn-primary" id="btnShop">
-          🛒 Comprar ahora
-        </button>
+    <div class="container cta-content">
+      <h2>¿Listo para el crujido? 🍌</h2>
+      <p>
+        Haz tu pedido ahora por WhatsApp o llámanos. 
+        Envíos a todo Ecuador.
+      </p>
+      <a href="https://wa.me/593996643455?text=Hola%20Jipi%20Chifles!%20Quiero%20hacer%20un%20pedido" 
+         target="_blank" class="btn-white">
+        💬 Pedir por WhatsApp
+      </a>
+      <div style="margin-top: 1.2rem; font-size: .95rem; opacity: .85;">
+        📞 0996643455 — 0982265382
       </div>
     </div>
   </section>
 
   <!-- ===================== CHATBOT ===================== -->
   <button class="chatbot-toggle" id="chatbotToggle" aria-label="Abrir chat">
-    <img src="images/mascot.png" alt="Chat mascota" />
+    <img src="images/logo.png" alt="Chat Jipi Chifles" />
     <span class="notif-dot"></span>
   </button>
 
   <div class="chatbot-window" id="chatbotWindow">
     <div class="chat-header">
-      <img src="images/mascot.png" alt="Chifle Bot" class="chat-avatar" />
+      <img src="images/logo.png" alt="Jipi Bot" class="chat-avatar" />
       <div class="chat-header-info">
-        <h4>ChifleBot 🤖</h4>
+        <h4>JipiBot 🤖</h4>
         <span><span class="online-dot"></span> En línea</span>
       </div>
       <button class="chat-close" id="chatClose" aria-label="Cerrar chat">✕</button>
     </div>
 
-    <div class="chat-body" id="chatBody">
-      <!-- Messages injected by JS -->
-    </div>
+    <div class="chat-body" id="chatBody"></div>
 
     <div class="chat-footer">
       <input type="text" id="chatInput" placeholder="Escribe tu mensaje..." autocomplete="off" />
@@ -230,39 +367,47 @@
   <!-- ===================== FOOTER ===================== -->
   <footer class="footer" id="footer">
     <div class="container">
-      <div class="footer-content">
+      <div class="footer-grid">
         <div class="footer-brand">
-          <a href="#hero" class="nav-logo">
-            <img src="images/mascot.png" alt="Jipichifle" />
-            Jipichifle
-          </a>
+          <img src="images/logo.png" alt="Jipi Chifles" />
           <p>
-            Chifles artesanales elaborados con pasión y tradición en Jipijapa, Manabí.
-            Llevamos el sabor del Ecuador al mundo desde hace más de 15 años.
+            Empresa 100% ecuatoriana. Platanitos crujientes elaborados con pasión, 
+            tradición y materia prima de excelencia desde Jipijapa, Manabí.
           </p>
         </div>
 
-        <div class="footer-links">
+        <div class="footer-nav">
           <h4>Navegación</h4>
           <a href="#hero">Inicio</a>
-          <a href="#features">¿Por qué?</a>
+          <a href="#about">Nosotros</a>
+          <a href="#products">Productos</a>
           <a href="#factory">Fábrica</a>
-          <a href="#products">Sabores</a>
         </div>
 
-        <div class="footer-social">
-          <h4>Síguenos</h4>
+        <div class="footer-products">
+          <h4>Productos</h4>
+          <a href="#products">Platanitos de Verde</a>
+          <a href="#products">Platanitos de Maduro</a>
+          <a href="#products">Chips de Yuca</a>
+          <a href="#products">Chips de Camote</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <p>📞 0996643455</p>
+          <p>📞 0982265382</p>
+          <p>📸 @jipichifles</p>
           <div class="social-icons">
             <a href="#" class="social-icon" aria-label="Facebook">📘</a>
             <a href="#" class="social-icon" aria-label="Instagram">📸</a>
             <a href="#" class="social-icon" aria-label="TikTok">🎵</a>
-            <a href="#" class="social-icon" aria-label="WhatsApp">💬</a>
+            <a href="https://wa.me/593996643455" class="social-icon" aria-label="WhatsApp" target="_blank">💬</a>
           </div>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Jipichifle. Todos los derechos reservados.</p>
+        <p>&copy; 2026 Jipi Chifles. Todos los derechos reservados.</p>
         <div class="footer-location">
           📍 Orgullosamente hechos en Jipijapa, Ecuador
         </div>
